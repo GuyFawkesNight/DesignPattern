@@ -9,9 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型模式", "行为�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构型模式", "{4353642A-D507-42B0-A56B-B09A6D99B2B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Singleton", "01 Singleton", "{9A1953B3-EBD0-4FD8-A446-CD47E11BE59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{86236F8A-89D6-42A9-A945-0B71183CC85D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86236F8A-89D6-42A9-A945-0B71183CC85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86236F8A-89D6-42A9-A945-0B71183CC85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86236F8A-89D6-42A9-A945-0B71183CC85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86236F8A-89D6-42A9-A945-0B71183CC85D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A1953B3-EBD0-4FD8-A446-CD47E11BE59C} = {007C5CF0-6C14-43E0-90B5-729AB99C162E}
+		{86236F8A-89D6-42A9-A945-0B71183CC85D} = {9A1953B3-EBD0-4FD8-A446-CD47E11BE59C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E76C560-7D5C-4EB6-9F2C-23075311088F}
