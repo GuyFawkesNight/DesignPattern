@@ -19,9 +19,9 @@ namespace Singleton
 {
     public class Singleton_V3
     {
-        private static Singleton_V3 instance;
+        private static volatile Singleton_V3 instance = null;
 
-        private volatile object lockFlag = new object();
+        private static  object lockFlag = new object();
 
         private Singleton_V3() { }
 

@@ -23,13 +23,21 @@ namespace Singleton
 {
     public class Singleton_V2
     {
-        private static Singleton_V2 instance = new Singleton_V2();
+        private static  Singleton_V2 instance = new Singleton_V2();
 
         private Singleton_V2() { }
 
         public static Singleton_V2 GetInstance()
         {
             return instance;
+        }
+
+        public static Singleton_V2 Instance
+        {
+            get
+            {
+                return instance;
+            }
         }
 
     }
